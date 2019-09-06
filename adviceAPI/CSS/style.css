@@ -1,0 +1,48 @@
+.day-container{
+    width: 50vh;
+    height: 50vh;
+
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.15);
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgb(255, 251, 242);
+    
+}
+
+.interior{
+    text-align: center;
+
+}
+
+#calendar-header{
+    padding: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #cccccc;
+    
+}
+
+#quote-container{
+    padding: 50px;
+    font-size: 18px;
+
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+h2, p{
+    font-family: 'Quicksand', sans-serif;
+    
+}
